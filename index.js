@@ -11,8 +11,8 @@ const port = 3000;
 
 app.use(
   cors({
-    credentials: true,
-    origin: "http://splendorous-granita-a0f737.netlify.app/",
+    credential: true,
+    origin: "https://splendorous-granita-a0f737.netlify.app/",
   })
 );
 const sessionOptions = {
